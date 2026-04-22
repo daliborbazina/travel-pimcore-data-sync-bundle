@@ -1,0 +1,56 @@
+[
+  {
+    "supplier_offer_id": "AHR-MED-PPB-20260801-7N",
+    "travel_period": "2026-08-01/2026-08-08",
+    "status": "active",
+    "price_hint": 1049.0,
+    "currency": "EUR",
+    "available": true,
+    "updated_at": "2026-03-27T09:15:00+01:00"
+  },
+  {
+    "supplier_offer_id": "AHR-ROV-LON-20260712-7N",
+    "travel_period": "2026-07-12/2026-07-19",
+    "status": "active",
+    "price_hint": 1689.0,
+    "currency": "EUR",
+    "available": true,
+    "updated_at": "2026-03-27T09:16:00+01:00"
+  },
+  {
+    "supplier_offer_id": "ADR-SPL-RAD-20260615-7N",
+    "travel_period": "2026-06-15/2026-06-22",
+    "status": "active",
+    "price_hint": 1299.0,
+    "currency": "EUR",
+    "available": true,
+    "updated_at": "2026-03-27T09:17:00+01:00"
+  },
+  {
+    "supplier_offer_id": "ADR-DBV-LAC-20260905-5N",
+    "travel_period": "2026-09-05/2026-09-10",
+    "status": "active",
+    "price_hint": 1390.0,
+    "currency": "EUR",
+    "available": true,
+    "updated_at": "2026-03-27T09:18:00+01:00"
+  },
+  {
+    "supplier_offer_id": "QNR-OPA-AMB-20261010-3N",
+    "travel_period": "2026-10-10/2026-10-13",
+    "status": "on_request",
+    "price_hint": 699.0,
+    "currency": "EUR",
+    "available": false,
+    "updated_at": "2026-03-27T09:19:00+01:00"
+  },
+  {
+    "supplier_offer_id": "ADR-ZAD-FAL-20260720-7N",
+    "travel_period": "2026-07-20/2026-07-27",
+    "status": "sold_out",
+    "price_hint": 1199.0,
+    "currency": "EUR",
+    "available": false,
+    "updated_at": "2026-03-27T09:20:00+01:00"
+  }
+]

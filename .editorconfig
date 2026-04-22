@@ -1,0 +1,24 @@
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+tab_width = 4
+ij_continuation_indent_size = 4
+ij_visual_guides = 120
+
+[*.php]
+ij_php_class_brace_style = next_line
+ij_php_method_brace_style = next_line
+ij_php_lambda_brace_style = end_of_line
+
+ij_php_space_after_type_cast = true
+
+ij_php_blank_lines_after_imports = 1
+ij_php_align_multiline_parameters = false
+ij_php_align_multiline_chained_methods = false
+ij_php_align_multiline_ternary_operation = false
+ij_php_align_multiline_binary_operation = false
+ij_php_align_named_arguments = false

@@ -1,0 +1,39 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Command\:
+    resource: '../../Command/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Mapper\:
+    resource: '../../Mapper/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Pimcore\Path\:
+    resource: '../../Pimcore/Path/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Pimcore\Relation\:
+    resource: '../../Pimcore/Relation/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Pimcore\Repository\:
+    resource: '../../Pimcore/Repository/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Publish\:
+    resource: '../../Publish/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Pimcore\Setup\:
+    resource: '../../Pimcore/Setup/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Validation\:
+    resource: '../../Validation/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Source\:
+    resource: '../../Source/'
+
+  DaliborBazina\TravelPimcoreDataSyncBundle\Sync\:
+    resource: '../../Sync/'
+    exclude:
+      - '../../Sync/SyncContext.php'
+      - '../../Sync/SyncReport.php'
+

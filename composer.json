@@ -1,0 +1,90 @@
+{
+    "name": "daliborbazina/travel-pimcore-data-sync-bundle",
+    "description": "Pimcore-oriented bundle for synchronizing structured travel data into a destination, hotel and travel offer model.",
+    "type": "pimcore-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dalibor Bazina",
+            "email": "daliborbazina@gmail.com"
+        }
+    ],
+    "keywords": [
+        "pimcore",
+        "bundle",
+        "symfony",
+        "travel",
+        "data-sync"
+    ],
+    "require": {
+        "php": "~8.3.30",
+        "ext-json": "*",
+        "pimcore/pimcore": "v11.5.14.1",
+        "symfony/framework-bundle": "^6.4",
+        "symfony/console": "^6.4",
+        "symfony/config": "^6.4",
+        "symfony/dependency-injection": "^6.4",
+        "symfony/filesystem": "^6.4",
+        "symfony/string": "^6.4",
+        "symfony/yaml": "^6.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.75",
+        "phpstan/phpstan": "^2.1",
+        "phpstan/phpstan-symfony": "^2.0",
+        "phpunit/phpunit": "^11.5",
+        "symfony/phpunit-bridge": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DaliborBazina\\TravelPimcoreDataSyncBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DaliborBazina\\TravelPimcoreDataSyncBundle\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "lint": "php-cs-fixer fix --dry-run --diff --verbose",
+        "fix": "php-cs-fixer fix --verbose",
+        "stan": "phpstan analyse",
+        "test": "phpunit",
+        "qa": [
+            "@lint",
+            "@stan",
+            "@test"
+        ],
+        "phpstan": "@stan",
+        "cs-check": "@lint",
+        "cs-fix": "@fix",
+        "post-install-cmd": [],
+        "post-update-cmd": []
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        },
+        "pimcore": {
+            "bundles": [
+                "DaliborBazina\\TravelPimcoreDataSyncBundle\\TravelPimcoreDataSyncBundle"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        },
+        "audit": {
+            "ignore": {
+                "PKSA-8x4n-f9v2-4s1d": {
+                    "apply": "block",
+                    "reason": "Pinned intentionally to latest Pimcore 11.5 line for reference package compatibility."
+                }
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

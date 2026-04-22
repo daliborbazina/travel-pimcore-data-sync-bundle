@@ -1,0 +1,8 @@
+/.idea
+/.composer-*
+/.tools
+/.phpunit.result.cache
+/.phpunit.cache
+/vendor
+/dev/infra/.env
+/.php-cs-fixer.cache

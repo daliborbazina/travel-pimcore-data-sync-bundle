@@ -1,0 +1,80 @@
+[
+  {
+    "supplier_offer_id": "AHR-MED-PPB-20260801-7N",
+    "destination_code": "HR-IST-MED",
+    "destination_name": "Medulin",
+    "hotel_name": "Park Plaza Belvedere",
+    "teaser": "Classic Medulin summer offer near Bijeca beach.",
+    "description": "Seven-night beach-oriented Medulin stay. Good fixture record for testing destination mapping outside Pula while staying inside southern Istria.",
+    "media_urls": [
+      "https://www.arenahotels.com/en/hotel/park-plaza-belvedere",
+      "https://www.istra.hr/en/where-to-stay/hotels-and-resorts/hotels/170"
+    ],
+    "hotel_source_url": "https://www.arenahotels.com/en/hotel/park-plaza-belvedere"
+  },
+  {
+    "supplier_offer_id": "AHR-ROV-LON-20260712-7N",
+    "destination_code": "HR-IST-ROV",
+    "destination_name": "Rovinj",
+    "hotel_name": "Lone Hotel",
+    "teaser": "Design-focused Rovinj summer stay close to Zlatni Rt.",
+    "description": "Seven nights in Rovinj with strong premium positioning, useful for testing a more upscale Istria destination and hotel mapping scenario.",
+    "media_urls": [
+      "https://www.maistra.com/properties/hotel-lone-rovinj/",
+      "https://www.istra.hr/en/destinations/rovinj"
+    ],
+    "hotel_source_url": "https://www.maistra.com/properties/hotel-lone-rovinj/"
+  },
+  {
+    "supplier_offer_id": "ADR-SPL-RAD-20260615-7N",
+    "destination_code": "HR-DAL-SPL",
+    "destination_name": "Split",
+    "hotel_name": "Radisson Blu Resort Split",
+    "teaser": "Urban Dalmatian stay with beach access and city reach.",
+    "description": "Seven-night Split offer combining city and seaside positioning. Useful for testing a destination with both leisure and urban travel context.",
+    "media_urls": [
+      "https://www.radissonhotels.com/en-us/hotels/radisson-blu-resort-split",
+      "https://visitsplit.com/en"
+    ],
+    "hotel_source_url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-resort-split"
+  },
+  {
+    "supplier_offer_id": "ADR-DBV-LAC-20260905-5N",
+    "destination_code": "HR-DAL-DBV",
+    "destination_name": "Dubrovnik",
+    "hotel_name": "Hotel Lacroma Dubrovnik",
+    "teaser": "Shorter Dubrovnik premium break with strong destination pull.",
+    "description": "Five-night Dubrovnik stay oriented toward destination value and hotel comfort. Good fixture for testing a shorter travel period and premium coastal city context.",
+    "media_urls": [
+      "https://www.valamar.com/en/hotels-dubrovnik/valamar-lacroma-hotel",
+      "https://www.tzdubrovnik.hr/lang/en/index.html"
+    ],
+    "hotel_source_url": "https://www.valamar.com/en/hotels-dubrovnik/valamar-lacroma-hotel"
+  },
+  {
+    "supplier_offer_id": "QNR-OPA-AMB-20261010-3N",
+    "destination_code": "HR-KVA-OPA",
+    "destination_name": "Opatija",
+    "hotel_name": "Amadria Park Hotel Milenij",
+    "teaser": "Elegant Opatija long-weekend stay on the Kvarner coast.",
+    "description": "Three-night Opatija fixture useful for testing non-summer shoulder-season travel content and a classic coastal wellness destination.",
+    "media_urls": [
+      "https://www.amadriapark.com/hotel/hotel-milenij-opatija/",
+      "https://visitopatija.com/en"
+    ],
+    "hotel_source_url": "https://www.amadriapark.com/hotel/hotel-milenij-opatija/"
+  },
+  {
+    "supplier_offer_id": "ADR-ZAD-FAL-20260720-7N",
+    "destination_code": "HR-DAL-ZAD",
+    "destination_name": "Zadar",
+    "hotel_name": "Falkensteiner Hotel Adriana",
+    "teaser": "Adults-oriented Zadar coastline stay for peak summer period.",
+    "description": "Seven-night Zadar stay suitable for testing standard active summer availability with a Dalmatian destination outside Split and Dubrovnik.",
+    "media_urls": [
+      "https://www.falkensteiner.com/en/hotel-adriana",
+      "https://www.zadar.travel/"
+    ],
+    "hotel_source_url": "https://www.falkensteiner.com/en/hotel-adriana"
+  }
+]
