@@ -33,6 +33,15 @@ To install the Pimcore Data Object class definitions and seed sandbox data:
 
 A host Pimcore project that installs the bundle via Composer must provide or import the required class definitions before the sync commands can run successfully.
 
+## Accessing Pimcore
+
+Once the sandbox is up and running, you can access the instance using the following details:
+
+* **Frontend:** [http://localhost:8080/](http://localhost:8080/)
+* **Admin Panel:** [http://localhost:8080/admin/](http://localhost:8080/admin/)
+    * **Username:** `admin`
+    * **Password:** `admin`
+
 ## Run note
 
 Run catalog sync:
