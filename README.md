@@ -121,16 +121,16 @@ Design choices and trade-offs: `docs/decisions.md`
 
 Catalog sync with dry-run:
 
-    php bin/console travel:sync:catalog --file=/path/to/catalog.json --dry-run
+    php bin/console travel:sync:catalog --dry-run
 
 Availability sync with dry-run:
 
-    php bin/console travel:sync:availability --file=/path/to/availability.json --dry-run
+    php bin/console travel:sync:availability --dry-run
 
 Limit processed records:
 
-    php bin/console travel:sync:catalog --file=/path/to/catalog.json --limit=10
-    php bin/console travel:sync:availability --file=/path/to/availability.json --limit=10
+    php bin/console travel:sync:catalog --limit=10
+    php bin/console travel:sync:availability --limit=10
 
 Preview payload:
 
